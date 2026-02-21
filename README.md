@@ -1,4 +1,4 @@
-# PortfolioAI: Complete Interview Preparation Guide
+# CodeFolio: Complete Interview Preparation Guide
 
 This guide is designed to prepare you for technical and HR interviews at top product-based companies, specifically for roles like **Software Engineer**, **MERN/Fullstack Developer**, or **Backend Engineer**.
 
@@ -7,7 +7,7 @@ This guide is designed to prepare you for technical and HR interviews at top pro
 ## 1. Project Overview
 
 ### 30-Second HR Answer
-> "PortfolioAI is an intelligent platform that simplifies professional branding for developers. It leverages AI to transform raw experience data or PDF resumes into polished recruiter-friendly bios, single-page professional websites, and even full React portfolio projects. It solves the friction of manual portfolio creation while ensuring the content is optimized for target roles."
+> "CodeFolio is an intelligent platform that simplifies professional branding for developers. It leverages AI to transform raw experience data or PDF resumes into polished recruiter-friendly bios, single-page professional websites, and even full React portfolio projects. It solves the friction of manual portfolio creation while ensuring the content is optimized for target roles."
 
 ### 2-Minute Technical Explanation
 > "Architecture-wise, it's a decoupled system with a **React frontend** and a **Spring Boot backend**. The backend acts as an orchestration layer for AI services (OpenAI/Groq). Key features include a multi-modal input system where users can manually enter data or upload a PDF resume. The system uses **Apache PDFBox** for text extraction, which is then processed via custom prompt engineering to normalize the data into structured JSON. We use **JWT-based authentication** for security and **MySQL** for persistent storage of user profiles and generated results. A standout feature is the React export, where the AI generates a complete project structure, which we then bundle into a downloadable ZIP file on the fly using **ZipOutputStream**."
